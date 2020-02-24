@@ -248,7 +248,7 @@ row = 0
     row += 1 
   end
   
-  hash = {ncs[:name]=>total}
+  hash = ncs[:name] => total
   
   return hash
   
