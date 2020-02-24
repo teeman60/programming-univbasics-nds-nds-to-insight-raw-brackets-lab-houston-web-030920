@@ -247,7 +247,7 @@ nds = [{:name=>"Stephen Spielberg",
   while row < nds.length do
     total = 0
     
-    nds[row]
+    nds[row][:movies]
     column = 0 
     
     while column < nds[row][:movies].length do
