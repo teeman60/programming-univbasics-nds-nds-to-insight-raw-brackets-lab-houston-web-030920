@@ -5,7 +5,7 @@ def directors_database
   @_db ||= YAML.load(rot13.call(File.open("directors_db").read.to_s))
 
 
-require 'pp'
+require pp
 
 pp directors_database
 
