@@ -255,7 +255,7 @@ row = 0
     
     column += 1
    
-   puts {nds[row][:name] => total}
+   return {nds[row][:name] => total}
   end
    
     row += 1 
