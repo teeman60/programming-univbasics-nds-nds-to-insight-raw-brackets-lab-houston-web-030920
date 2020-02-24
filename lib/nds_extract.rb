@@ -255,14 +255,14 @@ row = 0
     
     column += 1
    
-   
   end
-    {nds[row][:name] => total}
+   return {nds[row][:name] => total}
     row += 1 
+    
   end
   
   
-  return {nds[row][:name] => total}
+  
   # return hash
   
 
