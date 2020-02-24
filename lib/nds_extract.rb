@@ -260,7 +260,7 @@ row = 0
     row += 1 
   end
   
-  {nds[row][:name] => total}
+  return {nds[row][:name] => total}
   
   # return hash
   
