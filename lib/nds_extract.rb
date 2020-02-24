@@ -245,8 +245,10 @@ total = 0
 row = 0 
   while row < nds.length do
     column = 0 
-    while column < nds[row].length do
-    total += nds[row][:movies][:worldwide_gross]
+    while column < nds[row][:movies].length do
+      inner = 0 
+      while inner < nds[row][:movies][column].length do 
+    total += nds[row][column][:movies][:worldwide_gross]
     column += 1 
   end
   return hash = {nds[:name] => total}
