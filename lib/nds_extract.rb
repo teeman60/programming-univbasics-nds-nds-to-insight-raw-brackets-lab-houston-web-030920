@@ -252,7 +252,7 @@ row = 0
     total += nds[row][:movies][column][:worldwide_gross]
     
     column += 1
-    return hash[nds[row][name]] = total
+    return hash[nds[row][:name]] = total
   end
   
     row += 1 
