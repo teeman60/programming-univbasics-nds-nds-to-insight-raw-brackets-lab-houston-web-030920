@@ -238,7 +238,7 @@ ncs = [{:name=>"Stephen Spielberg",
     :worldwide_gross=>58620973,
     :release_year=>1996}]}]
 
-puts ncs
+
 
 total = 0 
 
