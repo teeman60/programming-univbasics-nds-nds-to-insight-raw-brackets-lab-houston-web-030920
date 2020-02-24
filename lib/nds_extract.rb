@@ -244,7 +244,7 @@ total = 0
 
 row = 0 
   while row < ncs[:movies].length do
-    total += ncs[:name][:worldwide_gross]
+    total += ncs[:movies][:worldwide_gross]
     row += 1 
   end
   
