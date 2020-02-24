@@ -252,9 +252,9 @@ row = 0
     total += nds[row][:movies][column][:worldwide_gross]
     
     column += 1
-    return {nds[row][:name] => total}
+   
   end
-  
+   return {nds[row][:name] => total}
     row += 1 
   end
   
