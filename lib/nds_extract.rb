@@ -262,7 +262,7 @@ nds = [{:name=>"Stephen Spielberg",
   end
    return {nds[row][:name] => total}
     row += 1 
-    return {nds[row][:name] => total}
+    
   end
   
   
