@@ -257,10 +257,11 @@ nds = [{:name=>"Stephen Spielberg",
      total += nds[row][:movies][column][:worldwide_gross]
     
     column += 1
+    
    
   end
    return {nds[row][:name] => total}
-    row += 1 
+    row += 2  
     
   end
   
