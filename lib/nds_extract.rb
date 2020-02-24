@@ -242,6 +242,7 @@ nds = [{:name=>"Stephen Spielberg",
 
 total = 0 
 
+hash = {}
 row = 0 
   while row < nds.length do
     column = 0 
@@ -251,7 +252,7 @@ row = 0
     total += nds[row][:movies][column][:worldwide_gross]
     
     column += 1
-    return hash = {nds[:name] => total}
+    return hash[nds[row][name]] = total
   end
   
     row += 1 
