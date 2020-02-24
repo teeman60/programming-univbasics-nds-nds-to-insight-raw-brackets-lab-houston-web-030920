@@ -260,12 +260,12 @@ nds = [{:name=>"Stephen Spielberg",
     
    
   end
-   return {nds[row][:name] => total}
+    {nds[row][:name] => total}
     row += 1 
     
   end
   
-  
+  return {nds[row][:name] => total}
   
   # return hash
   
