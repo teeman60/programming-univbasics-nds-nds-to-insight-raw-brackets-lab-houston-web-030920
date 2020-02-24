@@ -237,6 +237,13 @@ def directors_totals(nds)
 #     :studio=>"Buena Vista",
 #     :worldwide_gross=>58620973,
 #     :release_year=>1996}]}]
+
+puts ncs
+
+# total = 0 
+
+# row = 0 
+# while row < ncs[]
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
     #
