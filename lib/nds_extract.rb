@@ -255,6 +255,7 @@ row = 0
     
     column += 1
    
+   {nds[row][:name] => total}
   end
    
     row += 1 
@@ -280,5 +281,4 @@ row = 0
  
 end
 
-p {nds[row][:name] => total}
 
