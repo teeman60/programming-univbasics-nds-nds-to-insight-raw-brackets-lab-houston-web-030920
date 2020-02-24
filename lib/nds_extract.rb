@@ -3,7 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
   
-ncs = [{:name=>"Stephen Spielberg",
+nds = [{:name=>"Stephen Spielberg",
   :movies=>
   [{:title=>"Jaws",
     :studio=>"Universal",
@@ -243,13 +243,13 @@ ncs = [{:name=>"Stephen Spielberg",
 total = 0 
 
 row = 0 
-  while row < ncs.length do
+  while row < nds.length do
     column = 0 
-    while column < ncs[:movies].length do
-    total += ncs[:movies][:worldwide_gross]
+    while column < nds[row].length do
+    total += nds[row][:movies][:worldwide_gross]
     column += 1 
   end
-  return hash = {ncs[:name] => total}
+  return hash = {nds[:name] => total}
     row += 1 
   end
   
