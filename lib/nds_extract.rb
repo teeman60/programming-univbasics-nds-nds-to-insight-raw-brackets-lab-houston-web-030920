@@ -242,7 +242,7 @@ nds = [{:name=>"Stephen Spielberg",
 
  
 
-
+  grand = {}
   row = 0 
   while row < nds.length do
     total = 0
@@ -260,12 +260,12 @@ nds = [{:name=>"Stephen Spielberg",
     
    
   end
-    {nds[row][:name] => total}
+    grand[nds[row][:name]] = total
     row += 1 
     
   end
   
-  return {nds[row][:name] => total}
+  return grand
   
   # return hash
   
