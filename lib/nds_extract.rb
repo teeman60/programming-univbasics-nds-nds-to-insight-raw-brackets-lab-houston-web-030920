@@ -245,9 +245,10 @@ nds = [{:name=>"Stephen Spielberg",
 
 row = 0 
   while row < nds.length do
+    total = 0
     column = 0 
     while column < nds[row][:movies].length do
-      total = 0
+      
       # inner = 0 
       # while inner < nds[row][:movies][column].length do 
     total += nds[row][:movies][column][:worldwide_gross]
