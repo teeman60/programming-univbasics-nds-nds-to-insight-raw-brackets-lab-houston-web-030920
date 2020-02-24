@@ -243,7 +243,7 @@ nds = [{:name=>"Stephen Spielberg",
  
 
 
-row = 0 
+  row = 0 
   while row < nds.length do
     total = 0
     
