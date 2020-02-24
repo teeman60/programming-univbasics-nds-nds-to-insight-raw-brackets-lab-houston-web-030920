@@ -258,9 +258,9 @@ nds = [{:name=>"Stephen Spielberg",
     
     column += 1
     
-   
-  end
    return {nds[row][:name] => total}
+  end
+   
     row += 1 
     
   end
