@@ -5,9 +5,10 @@ def directors_database
   @_db ||= YAML.load(rot13.call(File.open("directors_db").read.to_s))
 
 
-require pp
 
-pp directors_database
 
 end
 
+require pp
+
+pp directors_database
