@@ -240,10 +240,19 @@ ncs = [{:name=>"Stephen Spielberg",
 
 puts ncs
 
-# total = 0 
+total = 0 
 
-# row = 0 
-# while row < ncs[]
+row = 0 
+  while row < ncs[:movies].length do
+    total += ncs[:movies][:worldwide_gross]
+    row += 1 
+  end
+  
+  hash = {ncs[:name]=>total}
+  
+  return hash
+  
+
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
     #
